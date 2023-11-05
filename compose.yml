@@ -65,12 +65,12 @@ services:
     environment:
       PHPLDAPADMIN_LDAP_HOSTS: "ldap"
 
-#  gitlab:
-#    image: gitlab/gitlab-ce
-#    ports:
-#      - "8080:80"
-#    restart: always
-#    volumes:
-#      - ./gitlab/gitlab_home/config:/etc/gitlab
-#      - ./gitlab/gitlab_home/logs:/var/log/gitlab
-#      - ./gitlab/gitlab_home/data:/var/opt/gitlab
+  gitlab:
+    image: gitlab/gitlab-ce
+    ports:
+      - "8080:80"
+    restart: always
+    volumes:
+      - ./gitlab/gitlab_home/config:/etc/gitlab
+      - ./gitlab/gitlab_home/logs:/var/log/gitlab
+      - ./gitlab/gitlab_home/data:/var/opt/gitlab
