@@ -21,8 +21,6 @@ services:
       ROOT_URL: ${ROOT_URL:-http://localhost:${HOST_PORT:-3000}}
       PORT: ${PORT:-3000}
       DEPLOY_METHOD: docker
-      DEPLOY_PLATFORM: ${DEPLOY_PLATFORM:-}
-      REG_TOKEN: ${REG_TOKEN:-}
     depends_on:
       - mongodb
     expose:
@@ -33,6 +31,7 @@ services:
   mongodb:
     image: docker.io/bitnami/mongodb:${MONGODB_VERSION:-5.0}
     restart: always
+    container_name: mongodb
     volumes:
       - mongodb_data:/bitnami/mongodb
     environment:
@@ -50,7 +49,7 @@ services:
     container_name: ldap
     environment:
       LDAP_DOMAIN: "makeev.ru"
-      LDAP_ADMIN_PASSWORD: "Qwerty123"
+      LDAP_ADMIN_PASSWORD: ${LDAP_ADMIN_PASSWORD}
     restart: always
     ports:
       - "389:389"
@@ -59,6 +58,7 @@ services:
       - ./ldap/data/slapd/config:/etc/ldap/slapd.d
 
   ldap_admin:
+    container_name: ldap_admin
     image: osixia/phpldapadmin
     ports:
       - "6443:443"
@@ -66,6 +66,7 @@ services:
       PHPLDAPADMIN_LDAP_HOSTS: "ldap"
 
   gitlab:
+    conteinaer_name: gitlab
     image: gitlab/gitlab-ce
     ports:
       - "8080:80"

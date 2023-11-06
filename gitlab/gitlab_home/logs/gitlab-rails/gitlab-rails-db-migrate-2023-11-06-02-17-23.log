@@ -1,0 +1,18 @@
+Running db:schema:load rake task
+psql:/opt/gitlab/embedded/service/gitlab-rails/db/structure.sql:9: NOTICE:  extension "btree_gist" already exists, skipping
+psql:/opt/gitlab/embedded/service/gitlab-rails/db/structure.sql:11: NOTICE:  extension "pg_trgm" already exists, skipping
+psql:/opt/gitlab/embedded/service/gitlab-rails/db/structure.sql:2058: ERROR:  could not extend file "base/16387/17889": No space left on device
+HINT:  Check free disk space.
+rake aborted!
+failed to execute:
+psql --set ON_ERROR_STOP=1 --quiet --no-psqlrc --output /dev/null --file /opt/gitlab/embedded/service/gitlab-rails/db/structure.sql --single-transaction gitlabhq_production
+
+Please check the output above for any errors and make sure that `psql` is installed in your PATH and has proper permissions.
+
+/opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/database/postgresql_database_tasks/load_schema_versions_mixin.rb:10:in `structure_load'
+/opt/gitlab/embedded/service/gitlab-rails/lib/tasks/gitlab/db.rake:120:in `configure_database'
+/opt/gitlab/embedded/service/gitlab-rails/lib/tasks/gitlab/db.rake:101:in `block (3 levels) in <top (required)>'
+/opt/gitlab/embedded/bin/bundle:25:in `load'
+/opt/gitlab/embedded/bin/bundle:25:in `<main>'
+Tasks: TOP => db:schema:load
+(See full trace by running task with --trace)

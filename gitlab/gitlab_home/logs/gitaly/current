@@ -1,0 +1,813 @@
+{"level":"info","msg":"Wrapper started","pid":537,"time":"2023-11-05T17:32:35.851Z","wrapper":537}
+{"level":"info","msg":"finding process","pid":537,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-05T17:32:35.851Z","wrapper":537}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":537,"time":"2023-11-05T17:32:35.852Z","wrapper":537}
+{"level":"info","msg":"spawning a process","pid":537,"time":"2023-11-05T17:32:35.852Z","wrapper":537}
+{"level":"info","msg":"monitoring process","pid":537,"process":543,"time":"2023-11-05T17:32:35.856Z","wrapper":537}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":543,"time":"2023-11-05T17:32:37.682Z"}
+{"level":"info","msg":"Starting Gitaly","pid":543,"time":"2023-11-05T17:32:37.686Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":543,"time":"2023-11-05T17:32:37.687Z"}
+{"level":"info","msg":"Wrapper started","pid":300,"time":"2023-11-06T02:16:59.445Z","wrapper":300}
+{"level":"info","msg":"finding process","pid":300,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:16:59.445Z","wrapper":300}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":300,"time":"2023-11-06T02:16:59.445Z","wrapper":300}
+{"level":"info","msg":"spawning a process","pid":300,"time":"2023-11-06T02:16:59.445Z","wrapper":300}
+{"level":"info","msg":"monitoring process","pid":300,"process":306,"time":"2023-11-06T02:16:59.448Z","wrapper":300}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":306,"time":"2023-11-06T02:17:00.756Z"}
+{"level":"info","msg":"Starting Gitaly","pid":306,"time":"2023-11-06T02:17:00.758Z","version":"16.5.1"}
+{"level":"info","msg":"removed leftover gitaly process directory","path":"/var/opt/gitlab/gitaly/run/gitaly-543","pid":306,"time":"2023-11-06T02:17:01.001Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":306,"time":"2023-11-06T02:17:01.011Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-306/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-306/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":300,"time":"2023-11-06T02:17:01.901Z","wrapper":300}
+{"level":"warning","msg":"forwarding signal","pid":300,"process":306,"signal":17,"time":"2023-11-06T02:17:01.901Z","wrapper":300}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":300,"process":306,"signal":17,"time":"2023-11-06T02:17:01.906Z","wrapper":300}
+{"level":"error","msg":"wrapper for process shutting down","pid":300,"process":306,"time":"2023-11-06T02:17:02.462Z","wrapper":300}
+{"level":"info","msg":"Wrapper started","pid":325,"time":"2023-11-06T02:17:02.481Z","wrapper":325}
+{"level":"info","msg":"finding process","pid":325,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:02.481Z","wrapper":325}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":325,"time":"2023-11-06T02:17:02.481Z","wrapper":325}
+{"level":"info","msg":"spawning a process","pid":325,"time":"2023-11-06T02:17:02.481Z","wrapper":325}
+{"level":"info","msg":"monitoring process","pid":325,"process":331,"time":"2023-11-06T02:17:02.482Z","wrapper":325}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":331,"time":"2023-11-06T02:17:02.911Z"}
+{"level":"info","msg":"Starting Gitaly","pid":331,"time":"2023-11-06T02:17:02.911Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":331,"time":"2023-11-06T02:17:02.913Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-331/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-331/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":325,"time":"2023-11-06T02:17:03.497Z","wrapper":325}
+{"level":"warning","msg":"forwarding signal","pid":325,"process":331,"signal":17,"time":"2023-11-06T02:17:03.499Z","wrapper":325}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":325,"process":331,"signal":17,"time":"2023-11-06T02:17:03.499Z","wrapper":325}
+{"level":"error","msg":"wrapper for process shutting down","pid":325,"process":331,"time":"2023-11-06T02:17:04.487Z","wrapper":325}
+{"level":"info","msg":"Wrapper started","pid":346,"time":"2023-11-06T02:17:04.507Z","wrapper":346}
+{"level":"info","msg":"finding process","pid":346,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:04.507Z","wrapper":346}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":346,"time":"2023-11-06T02:17:04.507Z","wrapper":346}
+{"level":"info","msg":"spawning a process","pid":346,"time":"2023-11-06T02:17:04.507Z","wrapper":346}
+{"level":"info","msg":"monitoring process","pid":346,"process":352,"time":"2023-11-06T02:17:04.508Z","wrapper":346}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":352,"time":"2023-11-06T02:17:04.872Z"}
+{"level":"info","msg":"Starting Gitaly","pid":352,"time":"2023-11-06T02:17:04.873Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":352,"time":"2023-11-06T02:17:04.874Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-352/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-352/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":346,"time":"2023-11-06T02:17:05.039Z","wrapper":346}
+{"level":"warning","msg":"forwarding signal","pid":346,"process":352,"signal":17,"time":"2023-11-06T02:17:05.039Z","wrapper":346}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":346,"process":352,"signal":17,"time":"2023-11-06T02:17:05.040Z","wrapper":346}
+{"level":"error","msg":"wrapper for process shutting down","pid":346,"process":352,"time":"2023-11-06T02:17:05.510Z","wrapper":346}
+{"level":"info","msg":"Wrapper started","pid":363,"time":"2023-11-06T02:17:05.524Z","wrapper":363}
+{"level":"info","msg":"finding process","pid":363,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:05.524Z","wrapper":363}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":363,"time":"2023-11-06T02:17:05.524Z","wrapper":363}
+{"level":"info","msg":"spawning a process","pid":363,"time":"2023-11-06T02:17:05.524Z","wrapper":363}
+{"level":"info","msg":"monitoring process","pid":363,"process":369,"time":"2023-11-06T02:17:05.525Z","wrapper":363}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":369,"time":"2023-11-06T02:17:05.863Z"}
+{"level":"info","msg":"Starting Gitaly","pid":369,"time":"2023-11-06T02:17:05.863Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":369,"time":"2023-11-06T02:17:05.865Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-369/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-369/gitaly-hooks: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":363,"process":369,"signal":17,"time":"2023-11-06T02:17:06.567Z","wrapper":363}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":363,"process":369,"signal":17,"time":"2023-11-06T02:17:06.568Z","wrapper":363}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":363,"time":"2023-11-06T02:17:06.568Z","wrapper":363}
+{"level":"error","msg":"wrapper for process shutting down","pid":363,"process":369,"time":"2023-11-06T02:17:07.538Z","wrapper":363}
+{"level":"info","msg":"Wrapper started","pid":396,"time":"2023-11-06T02:17:07.557Z","wrapper":396}
+{"level":"info","msg":"finding process","pid":396,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:07.557Z","wrapper":396}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":396,"time":"2023-11-06T02:17:07.557Z","wrapper":396}
+{"level":"info","msg":"spawning a process","pid":396,"time":"2023-11-06T02:17:07.557Z","wrapper":396}
+{"level":"info","msg":"monitoring process","pid":396,"process":402,"time":"2023-11-06T02:17:07.566Z","wrapper":396}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":402,"time":"2023-11-06T02:17:08.217Z"}
+{"level":"info","msg":"Starting Gitaly","pid":402,"time":"2023-11-06T02:17:08.217Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":402,"time":"2023-11-06T02:17:08.221Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-402/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-402/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":396,"time":"2023-11-06T02:17:08.499Z","wrapper":396}
+{"level":"warning","msg":"forwarding signal","pid":396,"process":402,"signal":17,"time":"2023-11-06T02:17:08.502Z","wrapper":396}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":396,"process":402,"signal":17,"time":"2023-11-06T02:17:08.508Z","wrapper":396}
+{"level":"error","msg":"wrapper for process shutting down","pid":396,"process":402,"time":"2023-11-06T02:17:08.568Z","wrapper":396}
+{"level":"info","msg":"Wrapper started","pid":413,"time":"2023-11-06T02:17:08.588Z","wrapper":413}
+{"level":"info","msg":"finding process","pid":413,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:08.588Z","wrapper":413}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":413,"time":"2023-11-06T02:17:08.588Z","wrapper":413}
+{"level":"info","msg":"spawning a process","pid":413,"time":"2023-11-06T02:17:08.588Z","wrapper":413}
+{"level":"info","msg":"monitoring process","pid":413,"process":420,"time":"2023-11-06T02:17:08.589Z","wrapper":413}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":420,"time":"2023-11-06T02:17:09.003Z"}
+{"level":"info","msg":"Starting Gitaly","pid":420,"time":"2023-11-06T02:17:09.003Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":420,"time":"2023-11-06T02:17:09.004Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-420/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-420/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":413,"time":"2023-11-06T02:17:09.108Z","wrapper":413}
+{"level":"warning","msg":"forwarding signal","pid":413,"process":420,"signal":17,"time":"2023-11-06T02:17:09.109Z","wrapper":413}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":413,"process":420,"signal":17,"time":"2023-11-06T02:17:09.109Z","wrapper":413}
+{"level":"error","msg":"wrapper for process shutting down","pid":413,"process":420,"time":"2023-11-06T02:17:09.592Z","wrapper":413}
+{"level":"info","msg":"Wrapper started","pid":432,"time":"2023-11-06T02:17:09.616Z","wrapper":432}
+{"level":"info","msg":"finding process","pid":432,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:09.616Z","wrapper":432}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":432,"time":"2023-11-06T02:17:09.617Z","wrapper":432}
+{"level":"info","msg":"spawning a process","pid":432,"time":"2023-11-06T02:17:09.617Z","wrapper":432}
+{"level":"info","msg":"monitoring process","pid":432,"process":438,"time":"2023-11-06T02:17:09.617Z","wrapper":432}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":438,"time":"2023-11-06T02:17:09.941Z"}
+{"level":"info","msg":"Starting Gitaly","pid":438,"time":"2023-11-06T02:17:09.941Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":438,"time":"2023-11-06T02:17:09.941Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-438/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-438/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":432,"time":"2023-11-06T02:17:10.001Z","wrapper":432}
+{"level":"warning","msg":"forwarding signal","pid":432,"process":438,"signal":17,"time":"2023-11-06T02:17:10.003Z","wrapper":432}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":432,"process":438,"signal":17,"time":"2023-11-06T02:17:10.003Z","wrapper":432}
+{"level":"error","msg":"wrapper for process shutting down","pid":432,"process":438,"time":"2023-11-06T02:17:10.622Z","wrapper":432}
+{"level":"info","msg":"Wrapper started","pid":458,"time":"2023-11-06T02:17:10.646Z","wrapper":458}
+{"level":"info","msg":"finding process","pid":458,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:10.647Z","wrapper":458}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":458,"time":"2023-11-06T02:17:10.647Z","wrapper":458}
+{"level":"info","msg":"spawning a process","pid":458,"time":"2023-11-06T02:17:10.647Z","wrapper":458}
+{"level":"info","msg":"monitoring process","pid":458,"process":465,"time":"2023-11-06T02:17:10.648Z","wrapper":458}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":465,"time":"2023-11-06T02:17:11.026Z"}
+{"level":"info","msg":"Starting Gitaly","pid":465,"time":"2023-11-06T02:17:11.027Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":465,"time":"2023-11-06T02:17:11.027Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-465/gitaly-gpg": write /var/opt/gitlab/gitaly/run/gitaly-465/gitaly-gpg: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":458,"time":"2023-11-06T02:17:11.190Z","wrapper":458}
+{"level":"warning","msg":"forwarding signal","pid":458,"process":465,"signal":17,"time":"2023-11-06T02:17:11.190Z","wrapper":458}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":458,"process":465,"signal":17,"time":"2023-11-06T02:17:11.190Z","wrapper":458}
+{"level":"error","msg":"wrapper for process shutting down","pid":458,"process":465,"time":"2023-11-06T02:17:11.650Z","wrapper":458}
+{"level":"info","msg":"Wrapper started","pid":479,"time":"2023-11-06T02:17:11.673Z","wrapper":479}
+{"level":"info","msg":"finding process","pid":479,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:11.673Z","wrapper":479}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":479,"time":"2023-11-06T02:17:11.673Z","wrapper":479}
+{"level":"info","msg":"spawning a process","pid":479,"time":"2023-11-06T02:17:11.673Z","wrapper":479}
+{"level":"info","msg":"monitoring process","pid":479,"process":486,"time":"2023-11-06T02:17:11.674Z","wrapper":479}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":486,"time":"2023-11-06T02:17:12.042Z"}
+{"level":"info","msg":"Starting Gitaly","pid":486,"time":"2023-11-06T02:17:12.042Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":486,"time":"2023-11-06T02:17:12.043Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-486/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-486/gitaly-hooks: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":479,"process":486,"signal":17,"time":"2023-11-06T02:17:12.125Z","wrapper":479}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":479,"process":486,"signal":17,"time":"2023-11-06T02:17:12.126Z","wrapper":479}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":479,"time":"2023-11-06T02:17:12.126Z","wrapper":479}
+{"level":"error","msg":"wrapper for process shutting down","pid":479,"process":486,"time":"2023-11-06T02:17:12.682Z","wrapper":479}
+{"level":"info","msg":"Wrapper started","pid":498,"time":"2023-11-06T02:17:12.700Z","wrapper":498}
+{"level":"info","msg":"finding process","pid":498,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:12.701Z","wrapper":498}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":498,"time":"2023-11-06T02:17:12.701Z","wrapper":498}
+{"level":"info","msg":"spawning a process","pid":498,"time":"2023-11-06T02:17:12.701Z","wrapper":498}
+{"level":"info","msg":"monitoring process","pid":498,"process":504,"time":"2023-11-06T02:17:12.701Z","wrapper":498}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":504,"time":"2023-11-06T02:17:13.107Z"}
+{"level":"info","msg":"Starting Gitaly","pid":504,"time":"2023-11-06T02:17:13.107Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":504,"time":"2023-11-06T02:17:13.108Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-504/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-504/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":498,"time":"2023-11-06T02:17:13.229Z","wrapper":498}
+{"level":"warning","msg":"forwarding signal","pid":498,"process":504,"signal":17,"time":"2023-11-06T02:17:13.229Z","wrapper":498}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":498,"process":504,"signal":17,"time":"2023-11-06T02:17:13.229Z","wrapper":498}
+{"level":"error","msg":"wrapper for process shutting down","pid":498,"process":504,"time":"2023-11-06T02:17:13.712Z","wrapper":498}
+{"level":"info","msg":"Wrapper started","pid":520,"time":"2023-11-06T02:17:13.727Z","wrapper":520}
+{"level":"info","msg":"finding process","pid":520,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:13.727Z","wrapper":520}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":520,"time":"2023-11-06T02:17:13.727Z","wrapper":520}
+{"level":"info","msg":"spawning a process","pid":520,"time":"2023-11-06T02:17:13.727Z","wrapper":520}
+{"level":"info","msg":"monitoring process","pid":520,"process":526,"time":"2023-11-06T02:17:13.728Z","wrapper":520}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":526,"time":"2023-11-06T02:17:14.056Z"}
+{"level":"info","msg":"Starting Gitaly","pid":526,"time":"2023-11-06T02:17:14.056Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":526,"time":"2023-11-06T02:17:14.057Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-526/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-526/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":520,"time":"2023-11-06T02:17:14.179Z","wrapper":520}
+{"level":"warning","msg":"forwarding signal","pid":520,"process":526,"signal":17,"time":"2023-11-06T02:17:14.194Z","wrapper":520}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":520,"process":526,"signal":17,"time":"2023-11-06T02:17:14.194Z","wrapper":520}
+{"level":"error","msg":"wrapper for process shutting down","pid":520,"process":526,"time":"2023-11-06T02:17:14.734Z","wrapper":520}
+{"level":"info","msg":"Wrapper started","pid":555,"time":"2023-11-06T02:17:14.749Z","wrapper":555}
+{"level":"info","msg":"finding process","pid":555,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:14.749Z","wrapper":555}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":555,"time":"2023-11-06T02:17:14.750Z","wrapper":555}
+{"level":"info","msg":"spawning a process","pid":555,"time":"2023-11-06T02:17:14.750Z","wrapper":555}
+{"level":"info","msg":"monitoring process","pid":555,"process":563,"time":"2023-11-06T02:17:14.750Z","wrapper":555}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":563,"time":"2023-11-06T02:17:15.131Z"}
+{"level":"info","msg":"Starting Gitaly","pid":563,"time":"2023-11-06T02:17:15.132Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":563,"time":"2023-11-06T02:17:15.133Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-563/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-563/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":555,"time":"2023-11-06T02:17:15.204Z","wrapper":555}
+{"level":"warning","msg":"forwarding signal","pid":555,"process":563,"signal":17,"time":"2023-11-06T02:17:15.204Z","wrapper":555}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":555,"process":563,"signal":17,"time":"2023-11-06T02:17:15.204Z","wrapper":555}
+{"level":"error","msg":"wrapper for process shutting down","pid":555,"process":563,"time":"2023-11-06T02:17:15.761Z","wrapper":555}
+{"level":"info","msg":"Wrapper started","pid":608,"time":"2023-11-06T02:17:15.786Z","wrapper":608}
+{"level":"info","msg":"finding process","pid":608,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:15.786Z","wrapper":608}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":608,"time":"2023-11-06T02:17:15.786Z","wrapper":608}
+{"level":"info","msg":"spawning a process","pid":608,"time":"2023-11-06T02:17:15.786Z","wrapper":608}
+{"level":"info","msg":"monitoring process","pid":608,"process":614,"time":"2023-11-06T02:17:15.786Z","wrapper":608}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":614,"time":"2023-11-06T02:17:16.074Z"}
+{"level":"info","msg":"Starting Gitaly","pid":614,"time":"2023-11-06T02:17:16.074Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":614,"time":"2023-11-06T02:17:16.075Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-614/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-614/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":608,"time":"2023-11-06T02:17:16.103Z","wrapper":608}
+{"level":"warning","msg":"forwarding signal","pid":608,"process":614,"signal":17,"time":"2023-11-06T02:17:16.103Z","wrapper":608}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":608,"process":614,"signal":17,"time":"2023-11-06T02:17:16.103Z","wrapper":608}
+{"level":"error","msg":"wrapper for process shutting down","pid":608,"process":614,"time":"2023-11-06T02:17:16.794Z","wrapper":608}
+{"level":"info","msg":"Wrapper started","pid":626,"time":"2023-11-06T02:17:16.820Z","wrapper":626}
+{"level":"info","msg":"finding process","pid":626,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:16.820Z","wrapper":626}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":626,"time":"2023-11-06T02:17:16.820Z","wrapper":626}
+{"level":"info","msg":"spawning a process","pid":626,"time":"2023-11-06T02:17:16.820Z","wrapper":626}
+{"level":"info","msg":"monitoring process","pid":626,"process":632,"time":"2023-11-06T02:17:16.821Z","wrapper":626}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":632,"time":"2023-11-06T02:17:17.112Z"}
+{"level":"info","msg":"Starting Gitaly","pid":632,"time":"2023-11-06T02:17:17.113Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":632,"time":"2023-11-06T02:17:17.114Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-632/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-632/gitaly-ssh: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":626,"process":632,"signal":17,"time":"2023-11-06T02:17:17.145Z","wrapper":626}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":626,"process":632,"signal":17,"time":"2023-11-06T02:17:17.145Z","wrapper":626}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":626,"time":"2023-11-06T02:17:17.145Z","wrapper":626}
+{"level":"error","msg":"wrapper for process shutting down","pid":626,"process":632,"time":"2023-11-06T02:17:17.831Z","wrapper":626}
+{"level":"info","msg":"Wrapper started","pid":684,"time":"2023-11-06T02:17:17.850Z","wrapper":684}
+{"level":"info","msg":"finding process","pid":684,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:17.850Z","wrapper":684}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":684,"time":"2023-11-06T02:17:17.850Z","wrapper":684}
+{"level":"info","msg":"spawning a process","pid":684,"time":"2023-11-06T02:17:17.850Z","wrapper":684}
+{"level":"info","msg":"monitoring process","pid":684,"process":691,"time":"2023-11-06T02:17:17.851Z","wrapper":684}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":691,"time":"2023-11-06T02:17:18.196Z"}
+{"level":"info","msg":"Starting Gitaly","pid":691,"time":"2023-11-06T02:17:18.197Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":691,"time":"2023-11-06T02:17:18.197Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-691/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-691/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":684,"time":"2023-11-06T02:17:18.300Z","wrapper":684}
+{"level":"warning","msg":"forwarding signal","pid":684,"process":691,"signal":17,"time":"2023-11-06T02:17:18.301Z","wrapper":684}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":684,"process":691,"signal":17,"time":"2023-11-06T02:17:18.301Z","wrapper":684}
+{"level":"error","msg":"wrapper for process shutting down","pid":684,"process":691,"time":"2023-11-06T02:17:18.854Z","wrapper":684}
+{"level":"info","msg":"Wrapper started","pid":728,"time":"2023-11-06T02:17:18.868Z","wrapper":728}
+{"level":"info","msg":"finding process","pid":728,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:18.868Z","wrapper":728}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":728,"time":"2023-11-06T02:17:18.868Z","wrapper":728}
+{"level":"info","msg":"spawning a process","pid":728,"time":"2023-11-06T02:17:18.868Z","wrapper":728}
+{"level":"info","msg":"monitoring process","pid":728,"process":734,"time":"2023-11-06T02:17:18.869Z","wrapper":728}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":734,"time":"2023-11-06T02:17:19.210Z"}
+{"level":"info","msg":"Starting Gitaly","pid":734,"time":"2023-11-06T02:17:19.211Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":734,"time":"2023-11-06T02:17:19.211Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-734/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-734/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":728,"time":"2023-11-06T02:17:19.241Z","wrapper":728}
+{"level":"warning","msg":"forwarding signal","pid":728,"process":734,"signal":17,"time":"2023-11-06T02:17:19.241Z","wrapper":728}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":728,"process":734,"signal":17,"time":"2023-11-06T02:17:19.241Z","wrapper":728}
+{"level":"error","msg":"wrapper for process shutting down","pid":728,"process":734,"time":"2023-11-06T02:17:19.873Z","wrapper":728}
+{"level":"info","msg":"Wrapper started","pid":753,"time":"2023-11-06T02:17:19.900Z","wrapper":753}
+{"level":"info","msg":"finding process","pid":753,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:19.901Z","wrapper":753}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":753,"time":"2023-11-06T02:17:19.901Z","wrapper":753}
+{"level":"info","msg":"spawning a process","pid":753,"time":"2023-11-06T02:17:19.901Z","wrapper":753}
+{"level":"info","msg":"monitoring process","pid":753,"process":760,"time":"2023-11-06T02:17:19.901Z","wrapper":753}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":760,"time":"2023-11-06T02:17:20.188Z"}
+{"level":"info","msg":"Starting Gitaly","pid":760,"time":"2023-11-06T02:17:20.188Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":760,"time":"2023-11-06T02:17:20.190Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-760/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-760/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":753,"time":"2023-11-06T02:17:20.215Z","wrapper":753}
+{"level":"warning","msg":"forwarding signal","pid":753,"process":760,"signal":17,"time":"2023-11-06T02:17:20.215Z","wrapper":753}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":753,"process":760,"signal":17,"time":"2023-11-06T02:17:20.215Z","wrapper":753}
+{"level":"error","msg":"wrapper for process shutting down","pid":753,"process":760,"time":"2023-11-06T02:17:20.910Z","wrapper":753}
+{"level":"info","msg":"Wrapper started","pid":769,"time":"2023-11-06T02:17:20.936Z","wrapper":769}
+{"level":"info","msg":"finding process","pid":769,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:20.937Z","wrapper":769}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":769,"time":"2023-11-06T02:17:20.937Z","wrapper":769}
+{"level":"info","msg":"spawning a process","pid":769,"time":"2023-11-06T02:17:20.937Z","wrapper":769}
+{"level":"info","msg":"monitoring process","pid":769,"process":775,"time":"2023-11-06T02:17:20.937Z","wrapper":769}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":775,"time":"2023-11-06T02:17:21.250Z"}
+{"level":"info","msg":"Starting Gitaly","pid":775,"time":"2023-11-06T02:17:21.250Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":775,"time":"2023-11-06T02:17:21.251Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-775/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-775/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":769,"time":"2023-11-06T02:17:21.269Z","wrapper":769}
+{"level":"warning","msg":"forwarding signal","pid":769,"process":775,"signal":17,"time":"2023-11-06T02:17:21.269Z","wrapper":769}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":769,"process":775,"signal":17,"time":"2023-11-06T02:17:21.270Z","wrapper":769}
+{"level":"error","msg":"wrapper for process shutting down","pid":769,"process":775,"time":"2023-11-06T02:17:21.939Z","wrapper":769}
+{"level":"info","msg":"Wrapper started","pid":793,"time":"2023-11-06T02:17:21.964Z","wrapper":793}
+{"level":"info","msg":"finding process","pid":793,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:21.964Z","wrapper":793}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":793,"time":"2023-11-06T02:17:21.964Z","wrapper":793}
+{"level":"info","msg":"spawning a process","pid":793,"time":"2023-11-06T02:17:21.964Z","wrapper":793}
+{"level":"info","msg":"monitoring process","pid":793,"process":800,"time":"2023-11-06T02:17:21.964Z","wrapper":793}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":800,"time":"2023-11-06T02:17:22.326Z"}
+{"level":"info","msg":"Starting Gitaly","pid":800,"time":"2023-11-06T02:17:22.326Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":800,"time":"2023-11-06T02:17:22.327Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-800/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-800/gitaly-ssh: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":793,"process":800,"signal":17,"time":"2023-11-06T02:17:22.452Z","wrapper":793}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":793,"process":800,"signal":17,"time":"2023-11-06T02:17:22.453Z","wrapper":793}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":793,"time":"2023-11-06T02:17:22.453Z","wrapper":793}
+{"level":"error","msg":"wrapper for process shutting down","pid":793,"process":800,"time":"2023-11-06T02:17:22.968Z","wrapper":793}
+{"level":"info","msg":"Wrapper started","pid":812,"time":"2023-11-06T02:17:22.988Z","wrapper":812}
+{"level":"info","msg":"finding process","pid":812,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:22.988Z","wrapper":812}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":812,"time":"2023-11-06T02:17:22.988Z","wrapper":812}
+{"level":"info","msg":"spawning a process","pid":812,"time":"2023-11-06T02:17:22.988Z","wrapper":812}
+{"level":"info","msg":"monitoring process","pid":812,"process":818,"time":"2023-11-06T02:17:22.988Z","wrapper":812}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":818,"time":"2023-11-06T02:17:23.425Z"}
+{"level":"info","msg":"Starting Gitaly","pid":818,"time":"2023-11-06T02:17:23.425Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":818,"time":"2023-11-06T02:17:23.425Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-818/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-818/gitaly-lfs-smudge: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":812,"process":818,"signal":17,"time":"2023-11-06T02:17:23.545Z","wrapper":812}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":812,"process":818,"signal":17,"time":"2023-11-06T02:17:23.546Z","wrapper":812}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":812,"time":"2023-11-06T02:17:23.546Z","wrapper":812}
+{"level":"error","msg":"wrapper for process shutting down","pid":812,"process":818,"time":"2023-11-06T02:17:23.991Z","wrapper":812}
+{"level":"info","msg":"Wrapper started","pid":838,"time":"2023-11-06T02:17:24.003Z","wrapper":838}
+{"level":"info","msg":"finding process","pid":838,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:24.004Z","wrapper":838}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":838,"time":"2023-11-06T02:17:24.004Z","wrapper":838}
+{"level":"info","msg":"spawning a process","pid":838,"time":"2023-11-06T02:17:24.004Z","wrapper":838}
+{"level":"info","msg":"monitoring process","pid":838,"process":845,"time":"2023-11-06T02:17:24.004Z","wrapper":838}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":845,"time":"2023-11-06T02:17:24.334Z"}
+{"level":"info","msg":"Starting Gitaly","pid":845,"time":"2023-11-06T02:17:24.334Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":845,"time":"2023-11-06T02:17:24.334Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-845/gitaly-gpg": write /var/opt/gitlab/gitaly/run/gitaly-845/gitaly-gpg: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":838,"time":"2023-11-06T02:17:24.500Z","wrapper":838}
+{"level":"warning","msg":"forwarding signal","pid":838,"process":845,"signal":17,"time":"2023-11-06T02:17:24.502Z","wrapper":838}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":838,"process":845,"signal":17,"time":"2023-11-06T02:17:24.502Z","wrapper":838}
+{"level":"error","msg":"wrapper for process shutting down","pid":838,"process":845,"time":"2023-11-06T02:17:25.007Z","wrapper":838}
+{"level":"info","msg":"Wrapper started","pid":855,"time":"2023-11-06T02:17:25.020Z","wrapper":855}
+{"level":"info","msg":"finding process","pid":855,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:25.021Z","wrapper":855}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":855,"time":"2023-11-06T02:17:25.021Z","wrapper":855}
+{"level":"info","msg":"spawning a process","pid":855,"time":"2023-11-06T02:17:25.021Z","wrapper":855}
+{"level":"info","msg":"monitoring process","pid":855,"process":862,"time":"2023-11-06T02:17:25.021Z","wrapper":855}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":862,"time":"2023-11-06T02:17:25.439Z"}
+{"level":"info","msg":"Starting Gitaly","pid":862,"time":"2023-11-06T02:17:25.447Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":862,"time":"2023-11-06T02:17:25.450Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-862/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-862/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":855,"time":"2023-11-06T02:17:25.610Z","wrapper":855}
+{"level":"warning","msg":"forwarding signal","pid":855,"process":862,"signal":17,"time":"2023-11-06T02:17:25.610Z","wrapper":855}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":855,"process":862,"signal":17,"time":"2023-11-06T02:17:25.610Z","wrapper":855}
+{"level":"error","msg":"wrapper for process shutting down","pid":855,"process":862,"time":"2023-11-06T02:17:26.032Z","wrapper":855}
+{"level":"info","msg":"Wrapper started","pid":872,"time":"2023-11-06T02:17:26.052Z","wrapper":872}
+{"level":"info","msg":"finding process","pid":872,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:26.053Z","wrapper":872}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":872,"time":"2023-11-06T02:17:26.053Z","wrapper":872}
+{"level":"info","msg":"spawning a process","pid":872,"time":"2023-11-06T02:17:26.053Z","wrapper":872}
+{"level":"info","msg":"monitoring process","pid":872,"process":879,"time":"2023-11-06T02:17:26.054Z","wrapper":872}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":879,"time":"2023-11-06T02:17:26.442Z"}
+{"level":"info","msg":"Starting Gitaly","pid":879,"time":"2023-11-06T02:17:26.442Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":879,"time":"2023-11-06T02:17:26.443Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-879/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-879/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":872,"time":"2023-11-06T02:17:26.486Z","wrapper":872}
+{"level":"warning","msg":"forwarding signal","pid":872,"process":879,"signal":17,"time":"2023-11-06T02:17:26.486Z","wrapper":872}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":872,"process":879,"signal":17,"time":"2023-11-06T02:17:26.487Z","wrapper":872}
+{"level":"error","msg":"wrapper for process shutting down","pid":872,"process":879,"time":"2023-11-06T02:17:27.058Z","wrapper":872}
+{"level":"info","msg":"Wrapper started","pid":889,"time":"2023-11-06T02:17:27.074Z","wrapper":889}
+{"level":"info","msg":"finding process","pid":889,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:27.074Z","wrapper":889}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":889,"time":"2023-11-06T02:17:27.074Z","wrapper":889}
+{"level":"info","msg":"spawning a process","pid":889,"time":"2023-11-06T02:17:27.074Z","wrapper":889}
+{"level":"info","msg":"monitoring process","pid":889,"process":896,"time":"2023-11-06T02:17:27.075Z","wrapper":889}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":896,"time":"2023-11-06T02:17:27.385Z"}
+{"level":"info","msg":"Starting Gitaly","pid":896,"time":"2023-11-06T02:17:27.385Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":896,"time":"2023-11-06T02:17:27.386Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-896/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-896/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":889,"time":"2023-11-06T02:17:27.418Z","wrapper":889}
+{"level":"warning","msg":"forwarding signal","pid":889,"process":896,"signal":17,"time":"2023-11-06T02:17:27.419Z","wrapper":889}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":889,"process":896,"signal":17,"time":"2023-11-06T02:17:27.419Z","wrapper":889}
+{"level":"error","msg":"wrapper for process shutting down","pid":889,"process":896,"time":"2023-11-06T02:17:28.077Z","wrapper":889}
+{"level":"info","msg":"Wrapper started","pid":906,"time":"2023-11-06T02:17:28.091Z","wrapper":906}
+{"level":"info","msg":"finding process","pid":906,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:28.091Z","wrapper":906}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":906,"time":"2023-11-06T02:17:28.092Z","wrapper":906}
+{"level":"info","msg":"spawning a process","pid":906,"time":"2023-11-06T02:17:28.092Z","wrapper":906}
+{"level":"info","msg":"monitoring process","pid":906,"process":914,"time":"2023-11-06T02:17:28.092Z","wrapper":906}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":914,"time":"2023-11-06T02:17:28.445Z"}
+{"level":"info","msg":"Starting Gitaly","pid":914,"time":"2023-11-06T02:17:28.445Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":914,"time":"2023-11-06T02:17:28.446Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-914/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-914/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":906,"time":"2023-11-06T02:17:28.489Z","wrapper":906}
+{"level":"warning","msg":"forwarding signal","pid":906,"process":914,"signal":17,"time":"2023-11-06T02:17:28.489Z","wrapper":906}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":906,"process":914,"signal":17,"time":"2023-11-06T02:17:28.489Z","wrapper":906}
+{"level":"error","msg":"wrapper for process shutting down","pid":906,"process":914,"time":"2023-11-06T02:17:29.094Z","wrapper":906}
+{"level":"info","msg":"Wrapper started","pid":922,"time":"2023-11-06T02:17:29.108Z","wrapper":922}
+{"level":"info","msg":"finding process","pid":922,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:29.109Z","wrapper":922}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":922,"time":"2023-11-06T02:17:29.109Z","wrapper":922}
+{"level":"info","msg":"spawning a process","pid":922,"time":"2023-11-06T02:17:29.109Z","wrapper":922}
+{"level":"info","msg":"monitoring process","pid":922,"process":928,"time":"2023-11-06T02:17:29.109Z","wrapper":922}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":928,"time":"2023-11-06T02:17:29.501Z"}
+{"level":"info","msg":"Starting Gitaly","pid":928,"time":"2023-11-06T02:17:29.501Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":928,"time":"2023-11-06T02:17:29.530Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-928/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-928/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":922,"time":"2023-11-06T02:17:29.661Z","wrapper":922}
+{"level":"warning","msg":"forwarding signal","pid":922,"process":928,"signal":17,"time":"2023-11-06T02:17:29.661Z","wrapper":922}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":922,"process":928,"signal":17,"time":"2023-11-06T02:17:29.661Z","wrapper":922}
+{"level":"error","msg":"wrapper for process shutting down","pid":922,"process":928,"time":"2023-11-06T02:17:30.120Z","wrapper":922}
+{"level":"info","msg":"Wrapper started","pid":939,"time":"2023-11-06T02:17:30.136Z","wrapper":939}
+{"level":"info","msg":"finding process","pid":939,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:30.136Z","wrapper":939}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":939,"time":"2023-11-06T02:17:30.136Z","wrapper":939}
+{"level":"info","msg":"spawning a process","pid":939,"time":"2023-11-06T02:17:30.136Z","wrapper":939}
+{"level":"info","msg":"monitoring process","pid":939,"process":946,"time":"2023-11-06T02:17:30.136Z","wrapper":939}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":946,"time":"2023-11-06T02:17:30.520Z"}
+{"level":"info","msg":"Starting Gitaly","pid":946,"time":"2023-11-06T02:17:30.520Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":946,"time":"2023-11-06T02:17:30.521Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-946/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-946/gitaly-hooks: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":939,"process":946,"signal":17,"time":"2023-11-06T02:17:30.556Z","wrapper":939}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":939,"process":946,"signal":17,"time":"2023-11-06T02:17:30.556Z","wrapper":939}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":939,"time":"2023-11-06T02:17:30.556Z","wrapper":939}
+{"level":"error","msg":"wrapper for process shutting down","pid":939,"process":946,"time":"2023-11-06T02:17:31.138Z","wrapper":939}
+{"level":"info","msg":"Wrapper started","pid":955,"time":"2023-11-06T02:17:31.151Z","wrapper":955}
+{"level":"info","msg":"finding process","pid":955,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:31.151Z","wrapper":955}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":955,"time":"2023-11-06T02:17:31.151Z","wrapper":955}
+{"level":"info","msg":"spawning a process","pid":955,"time":"2023-11-06T02:17:31.151Z","wrapper":955}
+{"level":"info","msg":"monitoring process","pid":955,"process":961,"time":"2023-11-06T02:17:31.152Z","wrapper":955}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":961,"time":"2023-11-06T02:17:31.696Z"}
+{"level":"info","msg":"Starting Gitaly","pid":961,"time":"2023-11-06T02:17:31.697Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":961,"time":"2023-11-06T02:17:31.698Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-961/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-961/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":955,"time":"2023-11-06T02:17:31.996Z","wrapper":955}
+{"level":"warning","msg":"forwarding signal","pid":955,"process":961,"signal":17,"time":"2023-11-06T02:17:31.998Z","wrapper":955}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":955,"process":961,"signal":17,"time":"2023-11-06T02:17:31.998Z","wrapper":955}
+{"level":"error","msg":"wrapper for process shutting down","pid":955,"process":961,"time":"2023-11-06T02:17:32.153Z","wrapper":955}
+{"level":"info","msg":"Wrapper started","pid":973,"time":"2023-11-06T02:17:32.173Z","wrapper":973}
+{"level":"info","msg":"finding process","pid":973,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:32.173Z","wrapper":973}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":973,"time":"2023-11-06T02:17:32.173Z","wrapper":973}
+{"level":"info","msg":"spawning a process","pid":973,"time":"2023-11-06T02:17:32.173Z","wrapper":973}
+{"level":"info","msg":"monitoring process","pid":973,"process":980,"time":"2023-11-06T02:17:32.174Z","wrapper":973}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":980,"time":"2023-11-06T02:17:32.597Z"}
+{"level":"info","msg":"Starting Gitaly","pid":980,"time":"2023-11-06T02:17:32.598Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":980,"time":"2023-11-06T02:17:32.599Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-980/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-980/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":973,"time":"2023-11-06T02:17:32.642Z","wrapper":973}
+{"level":"warning","msg":"forwarding signal","pid":973,"process":980,"signal":17,"time":"2023-11-06T02:17:32.642Z","wrapper":973}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":973,"process":980,"signal":17,"time":"2023-11-06T02:17:32.642Z","wrapper":973}
+{"level":"error","msg":"wrapper for process shutting down","pid":973,"process":980,"time":"2023-11-06T02:17:33.176Z","wrapper":973}
+{"level":"info","msg":"Wrapper started","pid":988,"time":"2023-11-06T02:17:33.198Z","wrapper":988}
+{"level":"info","msg":"finding process","pid":988,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:33.198Z","wrapper":988}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":988,"time":"2023-11-06T02:17:33.198Z","wrapper":988}
+{"level":"info","msg":"spawning a process","pid":988,"time":"2023-11-06T02:17:33.198Z","wrapper":988}
+{"level":"info","msg":"monitoring process","pid":988,"process":994,"time":"2023-11-06T02:17:33.198Z","wrapper":988}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":994,"time":"2023-11-06T02:17:33.504Z"}
+{"level":"info","msg":"Starting Gitaly","pid":994,"time":"2023-11-06T02:17:33.504Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":994,"time":"2023-11-06T02:17:33.504Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-994/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-994/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":988,"time":"2023-11-06T02:17:33.543Z","wrapper":988}
+{"level":"warning","msg":"forwarding signal","pid":988,"process":994,"signal":17,"time":"2023-11-06T02:17:33.546Z","wrapper":988}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":988,"process":994,"signal":17,"time":"2023-11-06T02:17:33.546Z","wrapper":988}
+{"level":"error","msg":"wrapper for process shutting down","pid":988,"process":994,"time":"2023-11-06T02:17:34.200Z","wrapper":988}
+{"level":"info","msg":"Wrapper started","pid":1006,"time":"2023-11-06T02:17:34.220Z","wrapper":1006}
+{"level":"info","msg":"finding process","pid":1006,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:34.220Z","wrapper":1006}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1006,"time":"2023-11-06T02:17:34.220Z","wrapper":1006}
+{"level":"info","msg":"spawning a process","pid":1006,"time":"2023-11-06T02:17:34.220Z","wrapper":1006}
+{"level":"info","msg":"monitoring process","pid":1006,"process":1012,"time":"2023-11-06T02:17:34.220Z","wrapper":1006}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1012,"time":"2023-11-06T02:17:34.638Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1012,"time":"2023-11-06T02:17:34.639Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1012,"time":"2023-11-06T02:17:34.640Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1012/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-1012/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1006,"time":"2023-11-06T02:17:34.663Z","wrapper":1006}
+{"level":"warning","msg":"forwarding signal","pid":1006,"process":1012,"signal":17,"time":"2023-11-06T02:17:34.663Z","wrapper":1006}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1006,"process":1012,"signal":17,"time":"2023-11-06T02:17:34.663Z","wrapper":1006}
+{"level":"error","msg":"wrapper for process shutting down","pid":1006,"process":1012,"time":"2023-11-06T02:17:35.239Z","wrapper":1006}
+{"level":"info","msg":"Wrapper started","pid":1022,"time":"2023-11-06T02:17:35.253Z","wrapper":1022}
+{"level":"info","msg":"finding process","pid":1022,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:35.253Z","wrapper":1022}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1022,"time":"2023-11-06T02:17:35.253Z","wrapper":1022}
+{"level":"info","msg":"spawning a process","pid":1022,"time":"2023-11-06T02:17:35.253Z","wrapper":1022}
+{"level":"info","msg":"monitoring process","pid":1022,"process":1028,"time":"2023-11-06T02:17:35.254Z","wrapper":1022}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1028,"time":"2023-11-06T02:17:35.572Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1028,"time":"2023-11-06T02:17:35.572Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1028,"time":"2023-11-06T02:17:35.573Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1028/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1028/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1022,"time":"2023-11-06T02:17:35.699Z","wrapper":1022}
+{"level":"warning","msg":"forwarding signal","pid":1022,"process":1028,"signal":17,"time":"2023-11-06T02:17:35.699Z","wrapper":1022}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1022,"process":1028,"signal":17,"time":"2023-11-06T02:17:35.699Z","wrapper":1022}
+{"level":"error","msg":"wrapper for process shutting down","pid":1022,"process":1028,"time":"2023-11-06T02:17:36.258Z","wrapper":1022}
+{"level":"info","msg":"Wrapper started","pid":1040,"time":"2023-11-06T02:17:36.271Z","wrapper":1040}
+{"level":"info","msg":"finding process","pid":1040,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:36.271Z","wrapper":1040}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1040,"time":"2023-11-06T02:17:36.272Z","wrapper":1040}
+{"level":"info","msg":"spawning a process","pid":1040,"time":"2023-11-06T02:17:36.272Z","wrapper":1040}
+{"level":"info","msg":"monitoring process","pid":1040,"process":1046,"time":"2023-11-06T02:17:36.272Z","wrapper":1040}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1046,"time":"2023-11-06T02:17:36.596Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1046,"time":"2023-11-06T02:17:36.597Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1046,"time":"2023-11-06T02:17:36.597Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1046/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-1046/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1040,"time":"2023-11-06T02:17:36.728Z","wrapper":1040}
+{"level":"warning","msg":"forwarding signal","pid":1040,"process":1046,"signal":17,"time":"2023-11-06T02:17:36.729Z","wrapper":1040}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1040,"process":1046,"signal":17,"time":"2023-11-06T02:17:36.729Z","wrapper":1040}
+{"level":"error","msg":"wrapper for process shutting down","pid":1040,"process":1046,"time":"2023-11-06T02:17:37.274Z","wrapper":1040}
+{"level":"info","msg":"Wrapper started","pid":1057,"time":"2023-11-06T02:17:37.293Z","wrapper":1057}
+{"level":"info","msg":"finding process","pid":1057,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:37.293Z","wrapper":1057}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1057,"time":"2023-11-06T02:17:37.293Z","wrapper":1057}
+{"level":"info","msg":"spawning a process","pid":1057,"time":"2023-11-06T02:17:37.294Z","wrapper":1057}
+{"level":"info","msg":"monitoring process","pid":1057,"process":1063,"time":"2023-11-06T02:17:37.294Z","wrapper":1057}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1063,"time":"2023-11-06T02:17:37.718Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1063,"time":"2023-11-06T02:17:37.719Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1063,"time":"2023-11-06T02:17:37.743Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1063/gitaly-gpg": write /var/opt/gitlab/gitaly/run/gitaly-1063/gitaly-gpg: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1057,"time":"2023-11-06T02:17:37.810Z","wrapper":1057}
+{"level":"warning","msg":"forwarding signal","pid":1057,"process":1063,"signal":17,"time":"2023-11-06T02:17:37.810Z","wrapper":1057}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1057,"process":1063,"signal":17,"time":"2023-11-06T02:17:37.810Z","wrapper":1057}
+{"level":"error","msg":"wrapper for process shutting down","pid":1057,"process":1063,"time":"2023-11-06T02:17:38.298Z","wrapper":1057}
+{"level":"info","msg":"Wrapper started","pid":1078,"time":"2023-11-06T02:17:38.318Z","wrapper":1078}
+{"level":"info","msg":"finding process","pid":1078,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:38.318Z","wrapper":1078}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1078,"time":"2023-11-06T02:17:38.318Z","wrapper":1078}
+{"level":"info","msg":"spawning a process","pid":1078,"time":"2023-11-06T02:17:38.318Z","wrapper":1078}
+{"level":"info","msg":"monitoring process","pid":1078,"process":1085,"time":"2023-11-06T02:17:38.319Z","wrapper":1078}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1085,"time":"2023-11-06T02:17:38.670Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1085,"time":"2023-11-06T02:17:38.671Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1085,"time":"2023-11-06T02:17:38.672Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1085/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1085/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1078,"time":"2023-11-06T02:17:38.740Z","wrapper":1078}
+{"level":"warning","msg":"forwarding signal","pid":1078,"process":1085,"signal":17,"time":"2023-11-06T02:17:38.740Z","wrapper":1078}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1078,"process":1085,"signal":17,"time":"2023-11-06T02:17:38.740Z","wrapper":1078}
+{"level":"error","msg":"wrapper for process shutting down","pid":1078,"process":1085,"time":"2023-11-06T02:17:39.325Z","wrapper":1078}
+{"level":"info","msg":"Wrapper started","pid":1093,"time":"2023-11-06T02:17:39.338Z","wrapper":1093}
+{"level":"info","msg":"finding process","pid":1093,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:39.338Z","wrapper":1093}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1093,"time":"2023-11-06T02:17:39.338Z","wrapper":1093}
+{"level":"info","msg":"spawning a process","pid":1093,"time":"2023-11-06T02:17:39.338Z","wrapper":1093}
+{"level":"info","msg":"monitoring process","pid":1093,"process":1099,"time":"2023-11-06T02:17:39.339Z","wrapper":1093}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1099,"time":"2023-11-06T02:17:39.873Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1099,"time":"2023-11-06T02:17:39.874Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1099,"time":"2023-11-06T02:17:39.879Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1099/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-1099/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1093,"time":"2023-11-06T02:17:40.425Z","wrapper":1093}
+{"level":"warning","msg":"forwarding signal","pid":1093,"process":1099,"signal":17,"time":"2023-11-06T02:17:40.426Z","wrapper":1093}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1093,"process":1099,"signal":17,"time":"2023-11-06T02:17:40.426Z","wrapper":1093}
+{"level":"error","msg":"wrapper for process shutting down","pid":1093,"process":1099,"time":"2023-11-06T02:17:41.355Z","wrapper":1093}
+{"level":"info","msg":"Wrapper started","pid":1111,"time":"2023-11-06T02:17:41.371Z","wrapper":1111}
+{"level":"info","msg":"finding process","pid":1111,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:41.371Z","wrapper":1111}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1111,"time":"2023-11-06T02:17:41.371Z","wrapper":1111}
+{"level":"info","msg":"spawning a process","pid":1111,"time":"2023-11-06T02:17:41.371Z","wrapper":1111}
+{"level":"info","msg":"monitoring process","pid":1111,"process":1117,"time":"2023-11-06T02:17:41.372Z","wrapper":1111}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1117,"time":"2023-11-06T02:17:41.875Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1117,"time":"2023-11-06T02:17:41.876Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1117,"time":"2023-11-06T02:17:41.876Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1117/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1117/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1111,"time":"2023-11-06T02:17:42.085Z","wrapper":1111}
+{"level":"warning","msg":"forwarding signal","pid":1111,"process":1117,"signal":17,"time":"2023-11-06T02:17:42.085Z","wrapper":1111}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1111,"process":1117,"signal":17,"time":"2023-11-06T02:17:42.086Z","wrapper":1111}
+{"level":"error","msg":"wrapper for process shutting down","pid":1111,"process":1117,"time":"2023-11-06T02:17:42.384Z","wrapper":1111}
+{"level":"info","msg":"Wrapper started","pid":1129,"time":"2023-11-06T02:17:42.396Z","wrapper":1129}
+{"level":"info","msg":"finding process","pid":1129,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:42.396Z","wrapper":1129}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1129,"time":"2023-11-06T02:17:42.397Z","wrapper":1129}
+{"level":"info","msg":"spawning a process","pid":1129,"time":"2023-11-06T02:17:42.397Z","wrapper":1129}
+{"level":"info","msg":"monitoring process","pid":1129,"process":1135,"time":"2023-11-06T02:17:42.397Z","wrapper":1129}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1135,"time":"2023-11-06T02:17:43.145Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1135,"time":"2023-11-06T02:17:43.146Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1135,"time":"2023-11-06T02:17:43.153Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1135/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1135/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1129,"time":"2023-11-06T02:17:43.262Z","wrapper":1129}
+{"level":"warning","msg":"forwarding signal","pid":1129,"process":1135,"signal":17,"time":"2023-11-06T02:17:43.263Z","wrapper":1129}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1129,"process":1135,"signal":17,"time":"2023-11-06T02:17:43.263Z","wrapper":1129}
+{"level":"error","msg":"wrapper for process shutting down","pid":1129,"process":1135,"time":"2023-11-06T02:17:43.407Z","wrapper":1129}
+{"level":"info","msg":"Wrapper started","pid":1147,"time":"2023-11-06T02:17:43.431Z","wrapper":1147}
+{"level":"info","msg":"finding process","pid":1147,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:43.432Z","wrapper":1147}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1147,"time":"2023-11-06T02:17:43.432Z","wrapper":1147}
+{"level":"info","msg":"spawning a process","pid":1147,"time":"2023-11-06T02:17:43.432Z","wrapper":1147}
+{"level":"info","msg":"monitoring process","pid":1147,"process":1153,"time":"2023-11-06T02:17:43.433Z","wrapper":1147}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1153,"time":"2023-11-06T02:17:43.829Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1153,"time":"2023-11-06T02:17:43.829Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1153,"time":"2023-11-06T02:17:43.830Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1153/gitaly-gpg": write /var/opt/gitlab/gitaly/run/gitaly-1153/gitaly-gpg: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":1147,"process":1153,"signal":17,"time":"2023-11-06T02:17:43.919Z","wrapper":1147}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1147,"time":"2023-11-06T02:17:43.919Z","wrapper":1147}
+{"level":"error","msg":"wrapper for process shutting down","pid":1147,"process":1153,"time":"2023-11-06T02:17:44.435Z","wrapper":1147}
+{"level":"info","msg":"Wrapper started","pid":1164,"time":"2023-11-06T02:17:44.450Z","wrapper":1164}
+{"level":"info","msg":"finding process","pid":1164,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:44.450Z","wrapper":1164}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1164,"time":"2023-11-06T02:17:44.450Z","wrapper":1164}
+{"level":"info","msg":"spawning a process","pid":1164,"time":"2023-11-06T02:17:44.450Z","wrapper":1164}
+{"level":"info","msg":"monitoring process","pid":1164,"process":1171,"time":"2023-11-06T02:17:44.453Z","wrapper":1164}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1171,"time":"2023-11-06T02:17:44.839Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1171,"time":"2023-11-06T02:17:44.839Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1171,"time":"2023-11-06T02:17:44.840Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1171/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1171/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1164,"time":"2023-11-06T02:17:44.887Z","wrapper":1164}
+{"level":"warning","msg":"forwarding signal","pid":1164,"process":1171,"signal":17,"time":"2023-11-06T02:17:44.888Z","wrapper":1164}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1164,"process":1171,"signal":17,"time":"2023-11-06T02:17:44.888Z","wrapper":1164}
+{"level":"error","msg":"wrapper for process shutting down","pid":1164,"process":1171,"time":"2023-11-06T02:17:45.455Z","wrapper":1164}
+{"level":"info","msg":"Wrapper started","pid":1181,"time":"2023-11-06T02:17:45.471Z","wrapper":1181}
+{"level":"info","msg":"finding process","pid":1181,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:45.471Z","wrapper":1181}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1181,"time":"2023-11-06T02:17:45.471Z","wrapper":1181}
+{"level":"info","msg":"spawning a process","pid":1181,"time":"2023-11-06T02:17:45.471Z","wrapper":1181}
+{"level":"info","msg":"monitoring process","pid":1181,"process":1187,"time":"2023-11-06T02:17:45.472Z","wrapper":1181}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1187,"time":"2023-11-06T02:17:45.940Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1187,"time":"2023-11-06T02:17:45.941Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1187,"time":"2023-11-06T02:17:45.942Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1187/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-1187/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1181,"time":"2023-11-06T02:17:46.045Z","wrapper":1181}
+{"level":"warning","msg":"forwarding signal","pid":1181,"process":1187,"signal":17,"time":"2023-11-06T02:17:46.046Z","wrapper":1181}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1181,"process":1187,"signal":17,"time":"2023-11-06T02:17:46.046Z","wrapper":1181}
+{"level":"error","msg":"wrapper for process shutting down","pid":1181,"process":1187,"time":"2023-11-06T02:17:46.475Z","wrapper":1181}
+{"level":"info","msg":"Wrapper started","pid":1200,"time":"2023-11-06T02:17:46.498Z","wrapper":1200}
+{"level":"info","msg":"finding process","pid":1200,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:46.498Z","wrapper":1200}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1200,"time":"2023-11-06T02:17:46.498Z","wrapper":1200}
+{"level":"info","msg":"spawning a process","pid":1200,"time":"2023-11-06T02:17:46.498Z","wrapper":1200}
+{"level":"info","msg":"monitoring process","pid":1200,"process":1207,"time":"2023-11-06T02:17:46.502Z","wrapper":1200}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1207,"time":"2023-11-06T02:17:46.862Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1207,"time":"2023-11-06T02:17:46.862Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1207,"time":"2023-11-06T02:17:46.863Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1207/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-1207/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1200,"time":"2023-11-06T02:17:46.928Z","wrapper":1200}
+{"level":"warning","msg":"forwarding signal","pid":1200,"process":1207,"signal":17,"time":"2023-11-06T02:17:46.929Z","wrapper":1200}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1200,"process":1207,"signal":17,"time":"2023-11-06T02:17:46.930Z","wrapper":1200}
+{"level":"error","msg":"wrapper for process shutting down","pid":1200,"process":1207,"time":"2023-11-06T02:17:47.505Z","wrapper":1200}
+{"level":"info","msg":"Wrapper started","pid":1217,"time":"2023-11-06T02:17:47.518Z","wrapper":1217}
+{"level":"info","msg":"finding process","pid":1217,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:47.518Z","wrapper":1217}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1217,"time":"2023-11-06T02:17:47.518Z","wrapper":1217}
+{"level":"info","msg":"spawning a process","pid":1217,"time":"2023-11-06T02:17:47.518Z","wrapper":1217}
+{"level":"info","msg":"monitoring process","pid":1217,"process":1223,"time":"2023-11-06T02:17:47.518Z","wrapper":1217}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1223,"time":"2023-11-06T02:17:47.800Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1223,"time":"2023-11-06T02:17:47.800Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1223,"time":"2023-11-06T02:17:47.801Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1223/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1223/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1217,"time":"2023-11-06T02:17:48.130Z","wrapper":1217}
+{"level":"warning","msg":"forwarding signal","pid":1217,"process":1223,"signal":17,"time":"2023-11-06T02:17:48.132Z","wrapper":1217}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1217,"process":1223,"signal":17,"time":"2023-11-06T02:17:48.133Z","wrapper":1217}
+{"level":"error","msg":"wrapper for process shutting down","pid":1217,"process":1223,"time":"2023-11-06T02:17:48.527Z","wrapper":1217}
+{"level":"info","msg":"Wrapper started","pid":1234,"time":"2023-11-06T02:17:48.541Z","wrapper":1234}
+{"level":"info","msg":"finding process","pid":1234,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:48.541Z","wrapper":1234}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1234,"time":"2023-11-06T02:17:48.541Z","wrapper":1234}
+{"level":"info","msg":"spawning a process","pid":1234,"time":"2023-11-06T02:17:48.541Z","wrapper":1234}
+{"level":"info","msg":"monitoring process","pid":1234,"process":1240,"time":"2023-11-06T02:17:48.542Z","wrapper":1234}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1240,"time":"2023-11-06T02:17:48.920Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1240,"time":"2023-11-06T02:17:48.920Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1240,"time":"2023-11-06T02:17:48.921Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1240/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-1240/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1234,"time":"2023-11-06T02:17:49.013Z","wrapper":1234}
+{"level":"warning","msg":"forwarding signal","pid":1234,"process":1240,"signal":17,"time":"2023-11-06T02:17:49.013Z","wrapper":1234}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1234,"process":1240,"signal":17,"time":"2023-11-06T02:17:49.016Z","wrapper":1234}
+{"level":"error","msg":"wrapper for process shutting down","pid":1234,"process":1240,"time":"2023-11-06T02:17:49.543Z","wrapper":1234}
+{"level":"info","msg":"Wrapper started","pid":1251,"time":"2023-11-06T02:17:49.559Z","wrapper":1251}
+{"level":"info","msg":"finding process","pid":1251,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:49.559Z","wrapper":1251}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1251,"time":"2023-11-06T02:17:49.559Z","wrapper":1251}
+{"level":"info","msg":"spawning a process","pid":1251,"time":"2023-11-06T02:17:49.559Z","wrapper":1251}
+{"level":"info","msg":"monitoring process","pid":1251,"process":1259,"time":"2023-11-06T02:17:49.560Z","wrapper":1251}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1259,"time":"2023-11-06T02:17:49.849Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1259,"time":"2023-11-06T02:17:49.850Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1259,"time":"2023-11-06T02:17:49.851Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1259/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-1259/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1251,"time":"2023-11-06T02:17:49.975Z","wrapper":1251}
+{"level":"warning","msg":"forwarding signal","pid":1251,"process":1259,"signal":17,"time":"2023-11-06T02:17:49.975Z","wrapper":1251}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1251,"process":1259,"signal":17,"time":"2023-11-06T02:17:49.976Z","wrapper":1251}
+{"level":"error","msg":"wrapper for process shutting down","pid":1251,"process":1259,"time":"2023-11-06T02:17:50.565Z","wrapper":1251}
+{"level":"info","msg":"Wrapper started","pid":1271,"time":"2023-11-06T02:17:50.581Z","wrapper":1271}
+{"level":"info","msg":"finding process","pid":1271,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:50.581Z","wrapper":1271}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1271,"time":"2023-11-06T02:17:50.581Z","wrapper":1271}
+{"level":"info","msg":"spawning a process","pid":1271,"time":"2023-11-06T02:17:50.581Z","wrapper":1271}
+{"level":"info","msg":"monitoring process","pid":1271,"process":1278,"time":"2023-11-06T02:17:50.582Z","wrapper":1271}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1278,"time":"2023-11-06T02:17:50.926Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1278,"time":"2023-11-06T02:17:50.927Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1278,"time":"2023-11-06T02:17:50.928Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1278/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-1278/gitaly-lfs-smudge: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":1271,"process":1278,"signal":17,"time":"2023-11-06T02:17:51.139Z","wrapper":1271}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1271,"process":1278,"signal":17,"time":"2023-11-06T02:17:51.141Z","wrapper":1271}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1271,"time":"2023-11-06T02:17:51.139Z","wrapper":1271}
+{"level":"error","msg":"wrapper for process shutting down","pid":1271,"process":1278,"time":"2023-11-06T02:17:51.585Z","wrapper":1271}
+{"level":"info","msg":"Wrapper started","pid":1290,"time":"2023-11-06T02:17:51.608Z","wrapper":1290}
+{"level":"info","msg":"finding process","pid":1290,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:51.608Z","wrapper":1290}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1290,"time":"2023-11-06T02:17:51.609Z","wrapper":1290}
+{"level":"info","msg":"spawning a process","pid":1290,"time":"2023-11-06T02:17:51.609Z","wrapper":1290}
+{"level":"info","msg":"monitoring process","pid":1290,"process":1296,"time":"2023-11-06T02:17:51.610Z","wrapper":1290}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1296,"time":"2023-11-06T02:17:52.023Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1296,"time":"2023-11-06T02:17:52.024Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1296,"time":"2023-11-06T02:17:52.025Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1296/gitaly-gpg": write /var/opt/gitlab/gitaly/run/gitaly-1296/gitaly-gpg: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1290,"time":"2023-11-06T02:17:52.104Z","wrapper":1290}
+{"level":"warning","msg":"forwarding signal","pid":1290,"process":1296,"signal":17,"time":"2023-11-06T02:17:52.104Z","wrapper":1290}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1290,"process":1296,"signal":17,"time":"2023-11-06T02:17:52.104Z","wrapper":1290}
+{"level":"error","msg":"wrapper for process shutting down","pid":1290,"process":1296,"time":"2023-11-06T02:17:52.614Z","wrapper":1290}
+{"level":"info","msg":"Wrapper started","pid":1308,"time":"2023-11-06T02:17:52.630Z","wrapper":1308}
+{"level":"info","msg":"finding process","pid":1308,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:52.630Z","wrapper":1308}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1308,"time":"2023-11-06T02:17:52.630Z","wrapper":1308}
+{"level":"info","msg":"spawning a process","pid":1308,"time":"2023-11-06T02:17:52.630Z","wrapper":1308}
+{"level":"info","msg":"monitoring process","pid":1308,"process":1314,"time":"2023-11-06T02:17:52.631Z","wrapper":1308}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1314,"time":"2023-11-06T02:17:52.968Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1314,"time":"2023-11-06T02:17:52.969Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1314,"time":"2023-11-06T02:17:52.969Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1314/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1314/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1308,"time":"2023-11-06T02:17:52.993Z","wrapper":1308}
+{"level":"warning","msg":"forwarding signal","pid":1308,"process":1314,"signal":17,"time":"2023-11-06T02:17:52.993Z","wrapper":1308}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1308,"process":1314,"signal":17,"time":"2023-11-06T02:17:52.994Z","wrapper":1308}
+{"level":"error","msg":"wrapper for process shutting down","pid":1308,"process":1314,"time":"2023-11-06T02:17:53.635Z","wrapper":1308}
+{"level":"info","msg":"Wrapper started","pid":1324,"time":"2023-11-06T02:17:53.650Z","wrapper":1324}
+{"level":"info","msg":"finding process","pid":1324,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:53.651Z","wrapper":1324}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1324,"time":"2023-11-06T02:17:53.651Z","wrapper":1324}
+{"level":"info","msg":"spawning a process","pid":1324,"time":"2023-11-06T02:17:53.651Z","wrapper":1324}
+{"level":"info","msg":"monitoring process","pid":1324,"process":1331,"time":"2023-11-06T02:17:53.652Z","wrapper":1324}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1331,"time":"2023-11-06T02:17:53.946Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1331,"time":"2023-11-06T02:17:53.946Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1331,"time":"2023-11-06T02:17:53.947Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1331/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-1331/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1324,"time":"2023-11-06T02:17:54.104Z","wrapper":1324}
+{"level":"warning","msg":"forwarding signal","pid":1324,"process":1331,"signal":17,"time":"2023-11-06T02:17:54.104Z","wrapper":1324}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1324,"process":1331,"signal":17,"time":"2023-11-06T02:17:54.105Z","wrapper":1324}
+{"level":"error","msg":"wrapper for process shutting down","pid":1324,"process":1331,"time":"2023-11-06T02:17:54.656Z","wrapper":1324}
+{"level":"info","msg":"Wrapper started","pid":1345,"time":"2023-11-06T02:17:54.677Z","wrapper":1345}
+{"level":"info","msg":"finding process","pid":1345,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:54.677Z","wrapper":1345}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1345,"time":"2023-11-06T02:17:54.677Z","wrapper":1345}
+{"level":"info","msg":"spawning a process","pid":1345,"time":"2023-11-06T02:17:54.677Z","wrapper":1345}
+{"level":"info","msg":"monitoring process","pid":1345,"process":1351,"time":"2023-11-06T02:17:54.678Z","wrapper":1345}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1351,"time":"2023-11-06T02:17:55.194Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1351,"time":"2023-11-06T02:17:55.195Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1351,"time":"2023-11-06T02:17:55.195Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1351/gitaly-gpg": write /var/opt/gitlab/gitaly/run/gitaly-1351/gitaly-gpg: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1345,"time":"2023-11-06T02:17:55.256Z","wrapper":1345}
+{"level":"warning","msg":"forwarding signal","pid":1345,"process":1351,"signal":17,"time":"2023-11-06T02:17:55.256Z","wrapper":1345}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1345,"process":1351,"signal":17,"time":"2023-11-06T02:17:55.257Z","wrapper":1345}
+{"level":"error","msg":"wrapper for process shutting down","pid":1345,"process":1351,"time":"2023-11-06T02:17:55.680Z","wrapper":1345}
+{"level":"info","msg":"Wrapper started","pid":1362,"time":"2023-11-06T02:17:55.696Z","wrapper":1362}
+{"level":"info","msg":"finding process","pid":1362,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:55.696Z","wrapper":1362}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1362,"time":"2023-11-06T02:17:55.696Z","wrapper":1362}
+{"level":"info","msg":"spawning a process","pid":1362,"time":"2023-11-06T02:17:55.696Z","wrapper":1362}
+{"level":"info","msg":"monitoring process","pid":1362,"process":1368,"time":"2023-11-06T02:17:55.696Z","wrapper":1362}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1368,"time":"2023-11-06T02:17:56.131Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1368,"time":"2023-11-06T02:17:56.131Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1368,"time":"2023-11-06T02:17:56.132Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1368/gitaly-gpg": write /var/opt/gitlab/gitaly/run/gitaly-1368/gitaly-gpg: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1362,"time":"2023-11-06T02:17:56.428Z","wrapper":1362}
+{"level":"warning","msg":"forwarding signal","pid":1362,"process":1368,"signal":17,"time":"2023-11-06T02:17:56.429Z","wrapper":1362}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1362,"process":1368,"signal":17,"time":"2023-11-06T02:17:56.429Z","wrapper":1362}
+{"level":"error","msg":"wrapper for process shutting down","pid":1362,"process":1368,"time":"2023-11-06T02:17:56.706Z","wrapper":1362}
+{"level":"info","msg":"Wrapper started","pid":1385,"time":"2023-11-06T02:17:56.727Z","wrapper":1385}
+{"level":"info","msg":"finding process","pid":1385,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:56.727Z","wrapper":1385}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1385,"time":"2023-11-06T02:17:56.728Z","wrapper":1385}
+{"level":"info","msg":"spawning a process","pid":1385,"time":"2023-11-06T02:17:56.728Z","wrapper":1385}
+{"level":"info","msg":"monitoring process","pid":1385,"process":1392,"time":"2023-11-06T02:17:56.728Z","wrapper":1385}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1392,"time":"2023-11-06T02:17:57.231Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1392,"time":"2023-11-06T02:17:57.231Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1392,"time":"2023-11-06T02:17:57.231Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1392/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-1392/gitaly-hooks: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":1385,"process":1392,"signal":17,"time":"2023-11-06T02:17:57.569Z","wrapper":1385}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1385,"process":1392,"signal":17,"time":"2023-11-06T02:17:57.624Z","wrapper":1385}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1385,"time":"2023-11-06T02:17:57.569Z","wrapper":1385}
+{"level":"error","msg":"wrapper for process shutting down","pid":1385,"process":1392,"time":"2023-11-06T02:17:57.730Z","wrapper":1385}
+{"level":"info","msg":"Wrapper started","pid":1403,"time":"2023-11-06T02:17:57.748Z","wrapper":1403}
+{"level":"info","msg":"finding process","pid":1403,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:57.748Z","wrapper":1403}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1403,"time":"2023-11-06T02:17:57.748Z","wrapper":1403}
+{"level":"info","msg":"spawning a process","pid":1403,"time":"2023-11-06T02:17:57.749Z","wrapper":1403}
+{"level":"info","msg":"monitoring process","pid":1403,"process":1409,"time":"2023-11-06T02:17:57.749Z","wrapper":1403}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1409,"time":"2023-11-06T02:17:58.269Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1409,"time":"2023-11-06T02:17:58.269Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1409,"time":"2023-11-06T02:17:58.276Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1409/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1409/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1403,"time":"2023-11-06T02:17:58.489Z","wrapper":1403}
+{"level":"warning","msg":"forwarding signal","pid":1403,"process":1409,"signal":17,"time":"2023-11-06T02:17:58.490Z","wrapper":1403}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1403,"process":1409,"signal":17,"time":"2023-11-06T02:17:58.490Z","wrapper":1403}
+{"level":"error","msg":"wrapper for process shutting down","pid":1403,"process":1409,"time":"2023-11-06T02:17:58.751Z","wrapper":1403}
+{"level":"info","msg":"Wrapper started","pid":1421,"time":"2023-11-06T02:17:58.767Z","wrapper":1421}
+{"level":"info","msg":"finding process","pid":1421,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:58.767Z","wrapper":1421}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1421,"time":"2023-11-06T02:17:58.768Z","wrapper":1421}
+{"level":"info","msg":"spawning a process","pid":1421,"time":"2023-11-06T02:17:58.768Z","wrapper":1421}
+{"level":"info","msg":"monitoring process","pid":1421,"process":1427,"time":"2023-11-06T02:17:58.769Z","wrapper":1421}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1427,"time":"2023-11-06T02:17:59.229Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1427,"time":"2023-11-06T02:17:59.229Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1427,"time":"2023-11-06T02:17:59.231Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1427/gitaly-hooks": write /var/opt/gitlab/gitaly/run/gitaly-1427/gitaly-hooks: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1421,"time":"2023-11-06T02:17:59.352Z","wrapper":1421}
+{"level":"warning","msg":"forwarding signal","pid":1421,"process":1427,"signal":17,"time":"2023-11-06T02:17:59.353Z","wrapper":1421}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1421,"process":1427,"signal":17,"time":"2023-11-06T02:17:59.353Z","wrapper":1421}
+{"level":"error","msg":"wrapper for process shutting down","pid":1421,"process":1427,"time":"2023-11-06T02:17:59.774Z","wrapper":1421}
+{"level":"info","msg":"Wrapper started","pid":1442,"time":"2023-11-06T02:17:59.788Z","wrapper":1442}
+{"level":"info","msg":"finding process","pid":1442,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:17:59.789Z","wrapper":1442}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1442,"time":"2023-11-06T02:17:59.789Z","wrapper":1442}
+{"level":"info","msg":"spawning a process","pid":1442,"time":"2023-11-06T02:17:59.789Z","wrapper":1442}
+{"level":"info","msg":"monitoring process","pid":1442,"process":1448,"time":"2023-11-06T02:17:59.790Z","wrapper":1442}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1448,"time":"2023-11-06T02:18:00.159Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1448,"time":"2023-11-06T02:18:00.159Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1448,"time":"2023-11-06T02:18:00.160Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1448/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1448/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1442,"time":"2023-11-06T02:18:00.204Z","wrapper":1442}
+{"level":"warning","msg":"forwarding signal","pid":1442,"process":1448,"signal":17,"time":"2023-11-06T02:18:00.205Z","wrapper":1442}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1442,"process":1448,"signal":17,"time":"2023-11-06T02:18:00.205Z","wrapper":1442}
+{"level":"error","msg":"wrapper for process shutting down","pid":1442,"process":1448,"time":"2023-11-06T02:18:00.792Z","wrapper":1442}
+{"level":"info","msg":"Wrapper started","pid":1458,"time":"2023-11-06T02:18:00.808Z","wrapper":1458}
+{"level":"info","msg":"finding process","pid":1458,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:18:00.808Z","wrapper":1458}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1458,"time":"2023-11-06T02:18:00.808Z","wrapper":1458}
+{"level":"info","msg":"spawning a process","pid":1458,"time":"2023-11-06T02:18:00.808Z","wrapper":1458}
+{"level":"info","msg":"monitoring process","pid":1458,"process":1465,"time":"2023-11-06T02:18:00.809Z","wrapper":1458}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1465,"time":"2023-11-06T02:18:01.198Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1465,"time":"2023-11-06T02:18:01.198Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1465,"time":"2023-11-06T02:18:01.200Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1465/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-1465/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1458,"time":"2023-11-06T02:18:01.315Z","wrapper":1458}
+{"level":"warning","msg":"forwarding signal","pid":1458,"process":1465,"signal":17,"time":"2023-11-06T02:18:01.316Z","wrapper":1458}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1458,"process":1465,"signal":17,"time":"2023-11-06T02:18:01.317Z","wrapper":1458}
+{"level":"error","msg":"wrapper for process shutting down","pid":1458,"process":1465,"time":"2023-11-06T02:18:01.810Z","wrapper":1458}
+{"level":"info","msg":"Wrapper started","pid":1475,"time":"2023-11-06T02:18:01.828Z","wrapper":1475}
+{"level":"info","msg":"finding process","pid":1475,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:18:01.828Z","wrapper":1475}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1475,"time":"2023-11-06T02:18:01.828Z","wrapper":1475}
+{"level":"info","msg":"spawning a process","pid":1475,"time":"2023-11-06T02:18:01.828Z","wrapper":1475}
+{"level":"info","msg":"monitoring process","pid":1475,"process":1482,"time":"2023-11-06T02:18:01.829Z","wrapper":1475}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1482,"time":"2023-11-06T02:18:02.316Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1482,"time":"2023-11-06T02:18:02.316Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1482,"time":"2023-11-06T02:18:02.319Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1482/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-1482/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1475,"time":"2023-11-06T02:18:02.398Z","wrapper":1475}
+{"level":"warning","msg":"forwarding signal","pid":1475,"process":1482,"signal":17,"time":"2023-11-06T02:18:02.398Z","wrapper":1475}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1475,"process":1482,"signal":17,"time":"2023-11-06T02:18:02.398Z","wrapper":1475}
+{"level":"error","msg":"wrapper for process shutting down","pid":1475,"process":1482,"time":"2023-11-06T02:18:02.834Z","wrapper":1475}
+{"level":"info","msg":"Wrapper started","pid":1493,"time":"2023-11-06T02:18:02.848Z","wrapper":1493}
+{"level":"info","msg":"finding process","pid":1493,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:18:02.848Z","wrapper":1493}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1493,"time":"2023-11-06T02:18:02.848Z","wrapper":1493}
+{"level":"info","msg":"spawning a process","pid":1493,"time":"2023-11-06T02:18:02.848Z","wrapper":1493}
+{"level":"info","msg":"monitoring process","pid":1493,"process":1499,"time":"2023-11-06T02:18:02.850Z","wrapper":1493}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1499,"time":"2023-11-06T02:18:03.185Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1499,"time":"2023-11-06T02:18:03.185Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1499,"time":"2023-11-06T02:18:03.186Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1499/gitaly-lfs-smudge": write /var/opt/gitlab/gitaly/run/gitaly-1499/gitaly-lfs-smudge: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1493,"time":"2023-11-06T02:18:03.242Z","wrapper":1493}
+{"level":"warning","msg":"forwarding signal","pid":1493,"process":1499,"signal":17,"time":"2023-11-06T02:18:03.243Z","wrapper":1493}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1493,"process":1499,"signal":17,"time":"2023-11-06T02:18:03.244Z","wrapper":1493}
+{"level":"error","msg":"wrapper for process shutting down","pid":1493,"process":1499,"time":"2023-11-06T02:18:03.854Z","wrapper":1493}
+{"level":"info","msg":"Wrapper started","pid":1510,"time":"2023-11-06T02:18:03.870Z","wrapper":1510}
+{"level":"info","msg":"finding process","pid":1510,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:18:03.870Z","wrapper":1510}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1510,"time":"2023-11-06T02:18:03.871Z","wrapper":1510}
+{"level":"info","msg":"spawning a process","pid":1510,"time":"2023-11-06T02:18:03.871Z","wrapper":1510}
+{"level":"info","msg":"monitoring process","pid":1510,"process":1517,"time":"2023-11-06T02:18:03.871Z","wrapper":1510}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1517,"time":"2023-11-06T02:18:04.226Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1517,"time":"2023-11-06T02:18:04.226Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1517,"time":"2023-11-06T02:18:04.226Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1517/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1517/gitaly-ssh: no space left on device
+{"level":"warning","msg":"forwarding signal","pid":1510,"process":1517,"signal":17,"time":"2023-11-06T02:18:04.443Z","wrapper":1510}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1510,"process":1517,"signal":17,"time":"2023-11-06T02:18:04.444Z","wrapper":1510}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1510,"time":"2023-11-06T02:18:04.444Z","wrapper":1510}
+{"level":"error","msg":"wrapper for process shutting down","pid":1510,"process":1517,"time":"2023-11-06T02:18:04.874Z","wrapper":1510}
+{"level":"info","msg":"Wrapper started","pid":1528,"time":"2023-11-06T02:18:04.890Z","wrapper":1528}
+{"level":"info","msg":"finding process","pid":1528,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:18:04.890Z","wrapper":1528}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1528,"time":"2023-11-06T02:18:04.890Z","wrapper":1528}
+{"level":"info","msg":"spawning a process","pid":1528,"time":"2023-11-06T02:18:04.890Z","wrapper":1528}
+{"level":"info","msg":"monitoring process","pid":1528,"process":1535,"time":"2023-11-06T02:18:04.891Z","wrapper":1528}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1535,"time":"2023-11-06T02:18:05.229Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1535,"time":"2023-11-06T02:18:05.229Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1535,"time":"2023-11-06T02:18:05.230Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1535/gitaly-gpg": write /var/opt/gitlab/gitaly/run/gitaly-1535/gitaly-gpg: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1528,"time":"2023-11-06T02:18:05.302Z","wrapper":1528}
+{"level":"warning","msg":"forwarding signal","pid":1528,"process":1535,"signal":17,"time":"2023-11-06T02:18:05.304Z","wrapper":1528}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1528,"process":1535,"signal":17,"time":"2023-11-06T02:18:05.305Z","wrapper":1528}
+{"level":"error","msg":"wrapper for process shutting down","pid":1528,"process":1535,"time":"2023-11-06T02:18:05.892Z","wrapper":1528}
+{"level":"info","msg":"Wrapper started","pid":1545,"time":"2023-11-06T02:18:05.906Z","wrapper":1545}
+{"level":"info","msg":"finding process","pid":1545,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:18:05.906Z","wrapper":1545}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1545,"time":"2023-11-06T02:18:05.906Z","wrapper":1545}
+{"level":"info","msg":"spawning a process","pid":1545,"time":"2023-11-06T02:18:05.906Z","wrapper":1545}
+{"level":"info","msg":"monitoring process","pid":1545,"process":1551,"time":"2023-11-06T02:18:05.906Z","wrapper":1545}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1551,"time":"2023-11-06T02:18:06.331Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1551,"time":"2023-11-06T02:18:06.331Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1551,"time":"2023-11-06T02:18:06.332Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1551/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1551/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1545,"time":"2023-11-06T02:18:06.575Z","wrapper":1545}
+{"level":"warning","msg":"forwarding signal","pid":1545,"process":1551,"signal":17,"time":"2023-11-06T02:18:06.575Z","wrapper":1545}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1545,"process":1551,"signal":17,"time":"2023-11-06T02:18:06.576Z","wrapper":1545}
+{"level":"error","msg":"wrapper for process shutting down","pid":1545,"process":1551,"time":"2023-11-06T02:18:06.908Z","wrapper":1545}
+{"level":"info","msg":"Wrapper started","pid":1563,"time":"2023-11-06T02:18:06.922Z","wrapper":1563}
+{"level":"info","msg":"finding process","pid":1563,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2023-11-06T02:18:06.923Z","wrapper":1563}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1563,"time":"2023-11-06T02:18:06.923Z","wrapper":1563}
+{"level":"info","msg":"spawning a process","pid":1563,"time":"2023-11-06T02:18:06.923Z","wrapper":1563}
+{"level":"info","msg":"monitoring process","pid":1563,"process":1570,"time":"2023-11-06T02:18:06.923Z","wrapper":1563}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1570,"time":"2023-11-06T02:18:07.234Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1570,"time":"2023-11-06T02:18:07.235Z","version":"16.5.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1570,"time":"2023-11-06T02:18:07.235Z"}
+unclean Gitaly shutdown: unpack auxiliary binaries: unpack "/var/opt/gitlab/gitaly/run/gitaly-1570/gitaly-ssh": write /var/opt/gitlab/gitaly/run/gitaly-1570/gitaly-ssh: no space left on device
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1563,"time":"2023-11-06T02:18:07.275Z","wrapper":1563}
+{"level":"warning","msg":"forwarding signal","pid":1563,"process":1570,"signal":17,"time":"2023-11-06T02:18:07.275Z","wrapper":1563}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1563,"process":1570,"signal":17,"time":"2023-11-06T02:18:07.275Z","wrapper":1563}
